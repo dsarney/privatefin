@@ -42,7 +42,7 @@ The app is designed for coursework and demonstration purposes, with an emphasis 
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/dsarney/privatefin-docs.git
+git clone https://github.com/dsarney/privatefin.git
 cd privatefin
 ```
 
