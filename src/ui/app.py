@@ -136,6 +136,8 @@ COMPANY_OPTIONS = [
     {"label": "Zoetis", "tickers": ["ZTS"]},
 ]
 
+# Labels are shown in the sidebar; values are passed unchanged into the prompt as
+# context for the model.  They never change RSI/MACD calculations.
 RISK_PROFILE_OPTIONS = [
     {"label": "Low", "value": "low"},
     {"label": "Medium", "value": "medium"},
@@ -227,6 +229,7 @@ def main() -> None:
         generate_button = st.button("Generate analysis", use_container_width=True)
 
     if not generate_button:
+        # Widgets still render on every rerun; skip the pipeline until the user asks.
         return
 
     # Reject invalid periods before making a Yahoo Finance request.
@@ -236,6 +239,7 @@ def main() -> None:
 
     tickers = selected_company["tickers"]
     if isinstance(tickers, str):
+        # Company options normally use a list; accept a single string as a fallback.
         tickers = [tickers]
     company_name = _company_display(selected_company)
 
@@ -282,6 +286,8 @@ def main() -> None:
         st.subheader("Model Response")
         st.write(response_text)
     else:
+        # Keep the same OIIR headings as the live model so a missing Ollama install
+        # still demonstrates the intended output shape.
         st.warning(
             "Ollama is not available on this machine. The prompt is ready, but the local model could not be reached."
         )

@@ -1,4 +1,8 @@
-"""Tests for fetching, combining, and persisting stock price data."""
+"""Tests for fetching, combining, and persisting stock price data.
+
+Network calls are stubbed so these tests check normalisation, averaging of
+multi-symbol companies, empty-download handling, and CSV persistence.
+"""
 
 import pandas as pd
 
@@ -6,6 +10,7 @@ from src.engine import data_loader
 
 
 def test_download_single_ticker_flattens_multiindex(monkeypatch):
+    """yfinance MultiIndex columns such as ('Close', 'AAPL') should flatten to 'Close'."""
     index = pd.date_range("2024-01-01", periods=2)
     multi_columns = pd.MultiIndex.from_tuples(
         [("Open", "AAPL"), ("Close", "AAPL"), ("Volume", "AAPL")]
@@ -23,6 +28,7 @@ def test_download_single_ticker_flattens_multiindex(monkeypatch):
 
 
 def test_combine_ticker_frames_averages_common_columns():
+    """Aligned dual-class symbols (e.g. GOOG/GOOGL) should average into one OHLCV series."""
     index = pd.date_range("2024-01-01", periods=2)
     frame_a = pd.DataFrame(
         {
@@ -49,6 +55,7 @@ def test_combine_ticker_frames_averages_common_columns():
 
 
 def test_download_stock_data_returns_none_when_all_downloads_empty(monkeypatch):
+    """If every requested symbol returns an empty frame, the loader should return None."""
     monkeypatch.setattr(
         data_loader,
         "_download_single_ticker",
@@ -63,6 +70,7 @@ def test_download_stock_data_returns_none_when_all_downloads_empty(monkeypatch):
 
 
 def test_download_stock_data_saves_csv_for_multiple_tickers(monkeypatch, tmp_path):
+    """A blended download should persist as {TICKER}_{TICKER}_historical.csv."""
     index = pd.date_range("2024-01-01", periods=3)
 
     def _fake_download(symbol, *_args, **_kwargs):

@@ -81,6 +81,7 @@ def download_stock_data(
         symbol: _download_single_ticker(symbol, start_date, end_date)
         for symbol in tickers
     }
+    # Drop empty downloads so a failed sibling symbol does not poison a blend.
     frames = {symbol: frame for symbol, frame in frames.items() if not frame.empty}
 
     if not frames:
@@ -88,6 +89,7 @@ def download_stock_data(
         return None
 
     if len(frames) == 1:
+        # A single surviving symbol is already a conventional OHLCV frame.
         df = next(iter(frames.values()))
     else:
         df = _combine_ticker_frames(frames)

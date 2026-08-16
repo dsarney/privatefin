@@ -1,4 +1,8 @@
-"""Tests for Ollama availability checks and chat response handling."""
+"""Tests for Ollama availability checks and chat response handling.
+
+The real Ollama server is never contacted. Fake clients confirm that health
+probes, chat roles, error wrapping, and response parsing stay stable.
+"""
 
 from types import SimpleNamespace
 
@@ -8,6 +12,8 @@ from src.llm.ollama_client import OllamaClient
 
 
 def test_is_available_returns_true_when_list_succeeds(monkeypatch):
+    """A successful model-list probe means the local Ollama server is reachable."""
+
     class FakeClient:
         def __init__(self, host):
             self.host = host
@@ -24,6 +30,8 @@ def test_is_available_returns_true_when_list_succeeds(monkeypatch):
 
 
 def test_is_available_returns_false_on_exception(monkeypatch):
+    """Connection failures should be reported as 'unavailable', not raised."""
+
     class FailingClient:
         def __init__(self, host):
             raise RuntimeError("unreachable")
@@ -37,6 +45,7 @@ def test_is_available_returns_false_on_exception(monkeypatch):
 
 
 def test_generate_passes_system_and_user_messages(monkeypatch):
+    """System instructions and user evidence must be sent as separate chat roles."""
     captured = {}
 
     class FakeClient:
@@ -64,6 +73,8 @@ def test_generate_passes_system_and_user_messages(monkeypatch):
 
 
 def test_generate_raises_runtime_error_on_failure(monkeypatch):
+    """Generation failures should surface as a user-facing RuntimeError."""
+
     class FailingClient:
         def __init__(self, host):
             self.host = host
@@ -81,6 +92,7 @@ def test_generate_raises_runtime_error_on_failure(monkeypatch):
 
 
 def test_extract_content_supports_dict_and_object_styles():
+    """Both mapping-like and object-like Ollama SDK responses should yield message text."""
     dict_response = {"message": {"content": "from dict"}}
     object_response = SimpleNamespace(message=SimpleNamespace(content="from object"))
 

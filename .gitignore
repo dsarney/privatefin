@@ -221,3 +221,6 @@ __marimo__/
 
 # OS System Files
 .DS_Store
+
+# Local market data
+/data/

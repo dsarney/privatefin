@@ -1,4 +1,9 @@
-"""Tests for building the structured advisory prompt text."""
+"""Tests for building the structured advisory prompt text.
+
+These checks keep the Observe / Interpret / Infer / Recommend contract stable
+and confirm that engine jargon is translated into plain English before the
+model sees it.
+"""
 
 from src.llm.prompt_builder import (
     SYSTEM_PROMPT,
@@ -9,12 +14,14 @@ from src.llm.prompt_builder import (
 
 
 def test_describe_trend_variants():
+    """MACD trend labels must map to the same novice-friendly wording used in prompts."""
     assert _describe_trend("bullish") == "recent momentum is leaning upward"
     assert _describe_trend("bearish") == "recent momentum is leaning downward"
     assert _describe_trend("neutral") == "recent momentum looks mixed or steady"
 
 
 def test_describe_momentum_variants():
+    """RSI buckets must map to cautious everyday language, not unexplained jargon."""
     assert _describe_momentum("overbought") == (
         "the price may have risen quickly and could be due for a pause"
     )
@@ -25,6 +32,7 @@ def test_describe_momentum_variants():
 
 
 def test_build_advisory_prompt_contains_expected_fields_and_text():
+    """The assembled prompt should include provenance, numbers, and OIIR headings."""
     summary = {
         "close": 152.34,
         "price_change_pct": 1.23,

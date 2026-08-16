@@ -101,9 +101,11 @@ def enrich_with_indicators(price_frame: pd.DataFrame) -> pd.DataFrame:
     if "Close" not in price_frame.columns:
         raise ValueError("The input frame must include a 'Close' column.")
 
+    # Copy first so callers can keep the raw download for auditing or re-runs.
     enriched = price_frame.copy()
     enriched["RSI_14"] = compute_rsi(enriched["Close"])
 
+    # MACD returns several columns; assign them individually to keep names stable.
     macd_frame = compute_macd(enriched["Close"])
     for column in macd_frame.columns:
         enriched[column] = macd_frame[column]

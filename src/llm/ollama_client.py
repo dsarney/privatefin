@@ -33,6 +33,8 @@ class OllamaClient:
             client.list()
             return True
         except Exception:
+            # Any connection or protocol error is treated as "model unavailable"
+            # so the UI can fall back instead of crashing.
             return False
 
     def generate(self, user_prompt: str, system_prompt: str | None = None) -> str:
