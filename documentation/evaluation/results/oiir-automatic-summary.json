@@ -1,0 +1,12 @@
+{
+  "samples": 20,
+  "model": "llama3:latest, 8.0B, Q4_0 via local Ollama",
+  "fixed_period": "2025-07-20 to 2026-07-20",
+  "passes_by_check": {
+    "all_oiir_headings_present": 20,
+    "rsi_value_mentioned_exactly": 20,
+    "macd_value_mentioned_exactly": 13,
+    "no_obvious_momentum_contradiction": 20
+  },
+  "warning": "Rule checks supplement but do not replace manual scoring. Review every response in context."
+}

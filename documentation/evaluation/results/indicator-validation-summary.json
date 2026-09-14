@@ -1,0 +1,32 @@
+{
+  "run_date": "2026-07-21",
+  "reference": "TA-Lib 0.7.1",
+  "fixed_end_date_exclusive": "2026-07-20",
+  "ticker_groups_requested": 10,
+  "windows_per_ticker_requested": 3,
+  "comparisons_completed": 120,
+  "window_failures": [],
+  "agreement_to_four_decimal_places_by_metric": [
+    {
+      "metric": "MACD",
+      "sum": 11,
+      "count": 30
+    },
+    {
+      "metric": "MACD_Histogram",
+      "sum": 12,
+      "count": 30
+    },
+    {
+      "metric": "MACD_Signal",
+      "sum": 11,
+      "count": 30
+    },
+    {
+      "metric": "RSI_14",
+      "sum": 11,
+      "count": 30
+    }
+  ],
+  "important_interpretation": "A disagreement does not by itself show an algebraic error. TA-Lib and pandas EWM can use different seed/initialisation conventions, especially for RSI and the MACD signal line. Report observed differences and the chosen convention rather than claiming equivalence."
+}

@@ -1,0 +1,34 @@
+{
+  "samples": 20,
+  "model": "llama3:latest, 8.0B, Q4_0 via local Ollama",
+  "model_digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
+  "fixed_period": "2025-07-20 to 2026-07-20",
+  "conditions": "10 ticker groups, low and high risk profile for each",
+  "automatic_passes": {
+    "all_oiir_headings_present": 20,
+    "rsi_value_mentioned_exactly": 20,
+    "macd_value_mentioned_exactly": 13,
+    "no_obvious_momentum_contradiction": 20
+  },
+  "manual_rubric": {
+    "scoring": "Single author scorer; no inter-rater reliability claim.",
+    "mean_total_out_of_8": 5.95,
+    "median_total_out_of_8": 6.0,
+    "minimum_total_out_of_8": 3,
+    "maximum_total_out_of_8": 8,
+    "samples_at_or_above_6": 14,
+    "dimension_means_out_of_2": {
+      "factual_accuracy_0_to_2": 1.35,
+      "logical_coherence_0_to_2": 1.1,
+      "completeness_0_to_2": 2.0,
+      "transparency_0_to_2": 1.5
+    },
+    "predeclared_mean_threshold_6_met": false
+  },
+  "interpretation_notes": [
+    "Heading and value-string checks measure observable format/faithfulness only.",
+    "A missing exact MACD string is not automatically a factual failure if the relation is described correctly.",
+    "The momentum check ignores locally negated threshold terms such as 'not overbought'.",
+    "Manual author scoring found important MACD sign/order errors and unsupported price or portfolio targets."
+  ]
+}

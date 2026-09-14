@@ -1,0 +1,542 @@
+[
+  {
+    "sample_id": "O01",
+    "ticker": "AAPL",
+    "risk_profile": "low",
+    "indicator_summary": {
+      "close": 333.739990234375,
+      "rsi": 71.65827454278839,
+      "macd": 8.822127989287708,
+      "macd_signal": 5.487913291176727,
+      "macd_histogram": 3.334214698110981,
+      "price_change_pct": 0.1440258220863525,
+      "trend": "bullish",
+      "momentum": "overbought"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: AAPL\nUnderlying symbols used: AAPL\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 333.74\nPrice change vs previous session: 0.14%\nRSI(14): 71.66\nMACD: 8.8221\nMACD signal: 5.4879\nMACD histogram: 3.3342\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price may have risen quickly and could be due for a pause\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: AAPL\nUnderlying symbols used: AAPL\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 333.74\nPrice change vs previous session: 0.14%\nRSI(14): 71.66\nMACD: 8.8221\nMACD signal: 5.4879\nMACD histogram: 3.3342\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price may have risen quickly and could be due for a pause\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* The latest close of AAPL is 333.74, with a price change of only 0.14% compared to the previous session.\n* The RSI (Relative Strength Index) has reached 71.66, indicating that the recent upward momentum may be nearing its peak.\n* The MACD (Moving Average Convergence Divergence) is showing an upward trend, with the MACD line above the signal line and a positive histogram.\n\n**Interpret**\n\n* The RSI reading suggests that AAPL's price may have risen quickly and could be due for a pause or even a correction. This is because the RSI can become overbought when it reaches high levels like 71.66.\n* The MACD indicators are consistent with the recent upward trend, but the histogram indicates that the momentum is still increasing.\n\n**Infer**\n\n* Based on the observed data, it appears that AAPL's price may be due for a consolidation phase or a correction to rebalance its momentum.\n* The low risk profile suggests that the potential losses are relatively limited if the stock price were to drop.\n\n**Recommend**\n\n* For a low-risk approach, consider taking some profit off the table by selling a portion of your AAPL shares. This would allow you to lock in gains while reducing exposure to potential volatility.\n* If you're looking to add to your position, consider doing so at a slightly lower price level or when the RSI drops below 50.\n\n**Caution**\n\n* Be cautious not to overreact to short-term market fluctuations and avoid making emotional decisions based on daily price movements. Instead, focus on the overall trend and adjust your strategy accordingly.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": false,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O02",
+    "ticker": "AAPL",
+    "risk_profile": "high",
+    "indicator_summary": {
+      "close": 333.739990234375,
+      "rsi": 71.65827454278839,
+      "macd": 8.822127989287708,
+      "macd_signal": 5.487913291176727,
+      "macd_histogram": 3.334214698110981,
+      "price_change_pct": 0.1440258220863525,
+      "trend": "bullish",
+      "momentum": "overbought"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: AAPL\nUnderlying symbols used: AAPL\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 333.74\nPrice change vs previous session: 0.14%\nRSI(14): 71.66\nMACD: 8.8221\nMACD signal: 5.4879\nMACD histogram: 3.3342\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price may have risen quickly and could be due for a pause\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: AAPL\nUnderlying symbols used: AAPL\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 333.74\nPrice change vs previous session: 0.14%\nRSI(14): 71.66\nMACD: 8.8221\nMACD signal: 5.4879\nMACD histogram: 3.3342\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price may have risen quickly and could be due for a pause\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* The latest close is at $333.74, with a 0.14% increase from the previous session.\n* The RSI(14) indicates that the stock has been rising quickly, reaching 71.66, which may signal a potential pause or correction.\n* The MACD (Moving Average Convergence Divergence) is above both its signal and histogram lines, suggesting an upward momentum.\n\n**Interpret**\n\n* The recent price action shows an upward trend, with a significant increase in the RSI(14), indicating a strong upward momentum.\n* The MACD indicators suggest that this momentum may continue, as they are all above zero and moving upwards.\n* However, the RSI(14) reading of 71.66 indicates that the stock may be due for a pause or correction, which could provide an opportunity to enter the market at a more favorable price.\n\n**Infer**\n\n* Based on the technical indicators, it appears that the trend is likely to continue upward, but with some potential for a pullback or correction.\n* The high RSI(14) reading suggests that the stock may be overbought and due for a retracement.\n\n**Recommend**\n\n* Given the strong upward momentum and the possibility of a pullback, I recommend maintaining a long position in AAPL, but with a reduced exposure to minimize potential losses.\n* Consider taking some profits or reducing the position size if the price continues to rise above $340.\n* If the price falls below $325, it may be an opportunity to re-enter the market at a more favorable price.\n\n**Caution**\n\n* As always, high-risk profiles require caution. Be prepared for sudden changes in market conditions, which could impact AAPL's price performance.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": false,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O03",
+    "ticker": "MSFT",
+    "risk_profile": "low",
+    "indicator_summary": {
+      "close": 393.82000732421875,
+      "rsi": 51.88615778443446,
+      "macd": -0.9777144873463612,
+      "macd_signal": -4.200171227372684,
+      "macd_histogram": 3.222456740026323,
+      "price_change_pct": -1.8150083940457626,
+      "trend": "bullish",
+      "momentum": "balanced"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: MSFT\nUnderlying symbols used: MSFT\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 393.82\nPrice change vs previous session: -1.82%\nRSI(14): 51.89\nMACD: -0.9777\nMACD signal: -4.2002\nMACD histogram: 3.2225\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: MSFT\nUnderlying symbols used: MSFT\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 393.82\nPrice change vs previous session: -1.82%\nRSI(14): 51.89\nMACD: -0.9777\nMACD signal: -4.2002\nMACD histogram: 3.2225\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* The stock price of MSFT closed at 393.82 on the latest analysis date.\n* The price change over the previous session was -1.82%, which is a minor decline.\n* The RSI (Relative Strength Index) reading is 51.89, indicating that the recent price action is fairly balanced.\n* The MACD (Moving Average Convergence Divergence) indicator shows a negative value of -0.9777, suggesting a downward trend in momentum.\n* The MACD signal line is below the MACD line, which also indicates a bearish momentum.\n\n**Interpret**\n\n* The recent upward trend in momentum is no longer dominant, as indicated by the MACD and MACD histogram.\n* The RSI reading suggests that the price action is not overly extended or exhausted.\n* The minor decline in price over the previous session may be a minor correction within an overall uptrend.\n\n**Infer**\n\n* Based on the indicators, it appears that MSFT's recent momentum has slowed down, but the underlying trend remains upward.\n* The RSI reading suggests that there is no obvious sign of exhaustion or extreme overbought conditions.\n\n**Recommend**\n\n* Hold onto your existing position and consider adding to it if you have a low risk profile. The indicators suggest that the stock price may continue its upward trend, but with reduced momentum.\n* Be cautious and monitor the situation closely, as a further decline in price could potentially lead to a correction or even a reversal of the trend.\n\nNote: As always, past performance is not necessarily indicative of future results. This analysis should not be considered investment advice, and it's essential to consider your individual financial goals and risk tolerance before making any decisions.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": true,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O04",
+    "ticker": "MSFT",
+    "risk_profile": "high",
+    "indicator_summary": {
+      "close": 393.82000732421875,
+      "rsi": 51.88615778443446,
+      "macd": -0.9777144873463612,
+      "macd_signal": -4.200171227372684,
+      "macd_histogram": 3.222456740026323,
+      "price_change_pct": -1.8150083940457626,
+      "trend": "bullish",
+      "momentum": "balanced"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: MSFT\nUnderlying symbols used: MSFT\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 393.82\nPrice change vs previous session: -1.82%\nRSI(14): 51.89\nMACD: -0.9777\nMACD signal: -4.2002\nMACD histogram: 3.2225\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: MSFT\nUnderlying symbols used: MSFT\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 393.82\nPrice change vs previous session: -1.82%\nRSI(14): 51.89\nMACD: -0.9777\nMACD signal: -4.2002\nMACD histogram: 3.2225\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* The latest close price of MSFT is 393.82.\n* The stock experienced a price change of -1.82% compared to the previous session.\n* The RSI(14) reading is at 51.89, indicating a fairly balanced momentum.\n* The MACD (Moving Average Convergence Divergence) is at -0.9777, which means the short-term moving average is below the long-term moving average.\n* The MACD signal line is at -4.2002, and the MACD histogram is at 3.2225.\n\n**Interpret**\n\n* The recent momentum is leaning upward, suggesting a possible uptrend.\n* The price action looks fairly balanced, with no strong signs of overbought or oversold conditions.\n* The MACD is showing a bearish signal, indicating that the short-term moving average is below the long-term moving average.\n\n**Infer**\n\n* Based on the RSI reading, it appears that MSFT's momentum is not overly extreme in either direction.\n* The MACD's bearish signal suggests that there might be some downward pressure on the stock price.\n* However, the recent upward trend and fairly balanced momentum could indicate a possible continued uptrend.\n\n**Recommend**\n\n* Considering the indicators, I recommend a cautious long position with a moderate risk profile. This means taking a small position in MSFT while keeping an eye out for potential pullbacks or changes in market sentiment.\n* Caution: The bearish MACD signal and recent price drop suggest that there could be some short-term volatility ahead. It's essential to set stop-losses and monitor the situation closely.\n\nRemember, this analysis is based on historical data and should not be taken as investment advice. It's always important to conduct your own research and consider your individual risk tolerance before making any investment decisions.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": true,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O05",
+    "ticker": "TSLA",
+    "risk_profile": "low",
+    "indicator_summary": {
+      "close": 380.8399963378906,
+      "rsi": 42.62419230364671,
+      "macd": -3.645584914165397,
+      "macd_signal": -1.975041795660973,
+      "macd_histogram": -1.6705431185044242,
+      "price_change_pct": -2.613410035418371,
+      "trend": "bearish",
+      "momentum": "balanced"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: TSLA\nUnderlying symbols used: TSLA\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 380.84\nPrice change vs previous session: -2.61%\nRSI(14): 42.62\nMACD: -3.6456\nMACD signal: -1.9750\nMACD histogram: -1.6705\nTrend in plain English: recent momentum is leaning downward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: TSLA\nUnderlying symbols used: TSLA\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 380.84\nPrice change vs previous session: -2.61%\nRSI(14): 42.62\nMACD: -3.6456\nMACD signal: -1.9750\nMACD histogram: -1.6705\nTrend in plain English: recent momentum is leaning downward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* TSLA's price has dropped by 2.61% from the previous session, closing at $380.84.\n* The RSI (14) indicator shows a reading of 42.62, indicating that the recent momentum is fairly balanced, neither strongly up nor down.\n* The MACD (Moving Average Convergence Divergence) is bearish, with a signal line below the actual MACD line and a histogram reading of -1.6705.\n\n**Interpret**\n\n* The recent trend in TSLA's price is leaning downward, indicating that the stock has been moving in a slightly negative direction.\n* The RSI reading suggests that the price action is not strongly trending in either direction, which could indicate a period of consolidation or stabilization.\n* The MACD indicators suggest that there may be some bearish momentum present, potentially contributing to the recent decline.\n\n**Infer**\n\n* Based on these observations and interpretations, it appears that TSLA's stock price may continue to experience downward pressure, at least in the short term.\n* The relatively low RSI reading suggests that the stock is not strongly overbought or oversold, which could indicate that there is some room for further correction.\n\n**Recommend**\n\n* Considering the bearish MACD indicators and recent price decline, I would recommend a cautious approach to investing in TSLA. This could include:\n\t+ Reducing exposure to TSLA or taking profits on existing positions.\n\t+ Avoiding new purchases or considering short-term sell orders.\n\t+ Monitoring the stock's performance and adjusting the position as needed.\n\n**Caution**\n\n* It is important to note that this analysis is based on technical indicators, which are subject to change. As with any investment decision, it is essential to carefully consider individual risk tolerance, overall market conditions, and personal financial goals before making a move.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": false,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O06",
+    "ticker": "TSLA",
+    "risk_profile": "high",
+    "indicator_summary": {
+      "close": 380.8399963378906,
+      "rsi": 42.62419230364671,
+      "macd": -3.645584914165397,
+      "macd_signal": -1.975041795660973,
+      "macd_histogram": -1.6705431185044242,
+      "price_change_pct": -2.613410035418371,
+      "trend": "bearish",
+      "momentum": "balanced"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: TSLA\nUnderlying symbols used: TSLA\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 380.84\nPrice change vs previous session: -2.61%\nRSI(14): 42.62\nMACD: -3.6456\nMACD signal: -1.9750\nMACD histogram: -1.6705\nTrend in plain English: recent momentum is leaning downward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: TSLA\nUnderlying symbols used: TSLA\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 380.84\nPrice change vs previous session: -2.61%\nRSI(14): 42.62\nMACD: -3.6456\nMACD signal: -1.9750\nMACD histogram: -1.6705\nTrend in plain English: recent momentum is leaning downward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "Here's the analysis:\n\n**Observe**\n\n* The latest close price for TSLA is 380.84.\n* The stock has experienced a -2.61% price change compared to the previous session.\n* The RSI (14) indicator shows a reading of 42.62, suggesting that the price action looks fairly balanced in terms of momentum.\n* The MACD (Moving Average Convergence Divergence) is negative, with a value of -3.6456, indicating a recent downward trend.\n\n**Interpret**\n\n* The recent momentum is leaning downward, as indicated by the negative MACD and MACD histogram values (-1.9750 and -1.6705, respectively).\n* The RSI reading suggests that the price action is not overly stretched or extreme in either direction.\n* The slight decline in price over the previous session may be a sign of profit-taking or consolidation after a recent rally.\n\n**Infer**\n\n* Based on the indicators, it appears that TSLA's momentum is currently neutral to slightly bearish, with no strong indication of an imminent reversal.\n* The RSI reading does not suggest an oversold condition, which could indicate potential for a rebound.\n\n**Recommend**\n\n* Given the mixed signals from the indicators, I would recommend a cautious approach. This may involve scaling back or taking profits if you're already long on TSLA, and avoiding new long positions at this time.\n* As always, it's essential to set stop-loss levels and adjust them according to your risk tolerance and market conditions.\n\n**Caution**\n\n* Be aware that a further decline in price could lead to a more significant correction, especially if the MACD continues to deteriorate. It's crucial to monitor the indicators and be prepared to adapt your strategy accordingly.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": true,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O07",
+    "ticker": "JPM",
+    "risk_profile": "low",
+    "indicator_summary": {
+      "close": 341.1000061035156,
+      "rsi": 60.93119986382251,
+      "macd": 7.020164020002994,
+      "macd_signal": 6.9168972455677915,
+      "macd_histogram": 0.10326677443520271,
+      "price_change_pct": -0.5974028353289598,
+      "trend": "bullish",
+      "momentum": "balanced"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: JPM\nUnderlying symbols used: JPM\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 341.10\nPrice change vs previous session: -0.60%\nRSI(14): 60.93\nMACD: 7.0202\nMACD signal: 6.9169\nMACD histogram: 0.1033\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: JPM\nUnderlying symbols used: JPM\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 341.10\nPrice change vs previous session: -0.60%\nRSI(14): 60.93\nMACD: 7.0202\nMACD signal: 6.9169\nMACD histogram: 0.1033\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* The price of JPM has closed at 341.10 on the latest date.\n* The stock experienced a small decline of -0.60% compared to the previous session.\n* The RSI (Relative Strength Index) is currently reading 60.93, indicating that the recent momentum is fairly balanced.\n* The MACD (Moving Average Convergence Divergence) indicators show a positive trend, with the MACD line above the signal line and a small histogram indicating an upward momentum.\n\n**Interpret**\n\n* The recent price action of JPM suggests an upward momentum, as indicated by the MACD indicators.\n* The RSI reading of 60.93 indicates that the stock is not overly stretched or extreme in either direction.\n* The small decline in price compared to the previous session may be a minor correction within the overall upward trend.\n\n**Infer**\n\n* Based on the technical indicators, it appears that JPM is likely to continue its upward momentum in the short term.\n* However, the recent correction suggests that some caution should be exercised to avoid getting caught off guard by any potential setbacks.\n\n**Recommend**\n\n* Given the positive trend and fairly balanced momentum, I recommend a cautious long position for JPM, with a target price of around 355.00 within the next 2-3 weeks.\n* Investors should maintain a close eye on the stock's performance and be prepared to adjust their position if the indicators suggest a shift in the trend.\n\n**Caution**\n\n* As always, it is essential to diversify your portfolio and not put too many eggs in one basket.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": false,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O08",
+    "ticker": "JPM",
+    "risk_profile": "high",
+    "indicator_summary": {
+      "close": 341.1000061035156,
+      "rsi": 60.93119986382251,
+      "macd": 7.020164020002994,
+      "macd_signal": 6.9168972455677915,
+      "macd_histogram": 0.10326677443520271,
+      "price_change_pct": -0.5974028353289598,
+      "trend": "bullish",
+      "momentum": "balanced"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: JPM\nUnderlying symbols used: JPM\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 341.10\nPrice change vs previous session: -0.60%\nRSI(14): 60.93\nMACD: 7.0202\nMACD signal: 6.9169\nMACD histogram: 0.1033\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: JPM\nUnderlying symbols used: JPM\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 341.10\nPrice change vs previous session: -0.60%\nRSI(14): 60.93\nMACD: 7.0202\nMACD signal: 6.9169\nMACD histogram: 0.1033\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* The stock price of JPM has been trending upward recently, with a latest close of 341.10.\n* The price change compared to the previous session is -0.60%, which indicates a minor correction.\n* The RSI (14) value is at 60.93, suggesting that the recent momentum is fairly balanced and not overly strong or weak.\n* The MACD (Moving Average Convergence Divergence) indicator shows a reading of 7.0202, with a signal line of 6.9169, and a histogram value of 0.1033.\n\n**Interpret**\n\n* The upward trend in momentum is still present, but it's not extremely strong.\n* The RSI value indicates that the price action is fairly balanced, without any signs of overbought or oversold conditions.\n* The MACD indicator suggests that there may be a slight bullish momentum, as the MACD line is above the signal line and the histogram is positive.\n\n**Infer**\n\n* Based on the observed trend and indicators, it's possible that JPM may continue to trend upward, but with some caution due to the recent correction.\n* The balanced RSI reading suggests that the price action is not getting too extended in either direction, which could help sustain the momentum.\n\n**Recommend**\n\n* Considering the overall indicators, I would recommend a cautious bullish approach for JPM, with a focus on taking calculated risks and adjusting positions accordingly.\n* It's essential to monitor the stock closely, as any significant changes in the trend or indicators could warrant adjustments to the strategy.\n* A brief caution is advised due to the high risk profile, so investors should be prepared to adapt quickly if market conditions change.\n\nPlease note that this analysis is based solely on the provided data and may not reflect other factors that can impact the stock's performance. As with any investment decision, it's crucial to thoroughly research and consider multiple perspectives before making a move.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": true,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O09",
+    "ticker": "JNJ",
+    "risk_profile": "low",
+    "indicator_summary": {
+      "close": 253.0399932861328,
+      "rsi": 54.50224926252999,
+      "macd": 4.445505079010417,
+      "macd_signal": 5.966249543222398,
+      "macd_histogram": -1.5207444642119814,
+      "price_change_pct": 1.2281441974787746,
+      "trend": "bearish",
+      "momentum": "balanced"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: JNJ\nUnderlying symbols used: JNJ\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 253.04\nPrice change vs previous session: 1.23%\nRSI(14): 54.50\nMACD: 4.4455\nMACD signal: 5.9662\nMACD histogram: -1.5207\nTrend in plain English: recent momentum is leaning downward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: JNJ\nUnderlying symbols used: JNJ\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 253.04\nPrice change vs previous session: 1.23%\nRSI(14): 54.50\nMACD: 4.4455\nMACD signal: 5.9662\nMACD histogram: -1.5207\nTrend in plain English: recent momentum is leaning downward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* The latest closing price of JNJ is 253.04.\n* The stock has experienced a slight increase of 1.23% compared to the previous session.\n* The RSI (Relative Strength Index) reading stands at 54.50, indicating that the price action appears fairly balanced in terms of momentum.\n* The MACD (Moving Average Convergence Divergence) shows a negative histogram value of -1.5207, suggesting that recent momentum is leaning downward.\n\n**Interpret**\n\n* The slight increase in price compared to the previous session suggests a mild upward trend.\n* The RSI reading of 54.50 indicates that the stock is not oversold or overbought, which means it has some room for further movement before reaching extreme levels.\n* The MACD signals indicate that the short-term moving average (MA) is below the long-term MA, implying a downward trend in momentum.\n\n**Infer**\n\n* Based on the indicators, JNJ appears to be experiencing a mild decline in momentum, which may continue in the near term.\n* The stock's price action looks fairly balanced, with no extreme readings that would suggest a sudden and dramatic shift.\n\n**Recommend**\n\n* Considering the indicators, I recommend a cautious approach for investors seeking low-risk exposure. A hold or short-term buy-and-hold strategy might be suitable, as the recent downward trend in momentum may not yet have run its course.\n* However, investors should remain vigilant and monitor the stock's price action closely, as a sudden change in momentum could occur at any time.\n\n**Caution**\n\n* As always, it is essential to consider other fundamental factors, such as company performance, industry trends, and overall market conditions, when making investment decisions. The technical analysis provided here is meant to be a supplementary tool rather than the sole basis for a decision.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": false,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O10",
+    "ticker": "JNJ",
+    "risk_profile": "high",
+    "indicator_summary": {
+      "close": 253.0399932861328,
+      "rsi": 54.50224926252999,
+      "macd": 4.445505079010417,
+      "macd_signal": 5.966249543222398,
+      "macd_histogram": -1.5207444642119814,
+      "price_change_pct": 1.2281441974787746,
+      "trend": "bearish",
+      "momentum": "balanced"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: JNJ\nUnderlying symbols used: JNJ\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 253.04\nPrice change vs previous session: 1.23%\nRSI(14): 54.50\nMACD: 4.4455\nMACD signal: 5.9662\nMACD histogram: -1.5207\nTrend in plain English: recent momentum is leaning downward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: JNJ\nUnderlying symbols used: JNJ\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 253.04\nPrice change vs previous session: 1.23%\nRSI(14): 54.50\nMACD: 4.4455\nMACD signal: 5.9662\nMACD histogram: -1.5207\nTrend in plain English: recent momentum is leaning downward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* The latest closing price of JNJ is 253.04.\n* The recent price change is 1.23%, indicating a slight increase from the previous session.\n* The RSI (Relative Strength Index) with a 14-day period stands at 54.50, suggesting that the stock's price action is fairly balanced.\n* MACD (Moving Average Convergence Divergence) shows:\n\t+ MACD line: 4.4455\n\t+ MACD signal line: 5.9662\n\t+ MACD histogram: -1.5207\n\n**Interpret**\n\n* The recent trend is leaning downward, indicating a slight decline in momentum.\n* The RSI value of 54.50 indicates that the stock's price action is not overbought or oversold, suggesting a balanced market condition.\n* The MACD indicators show a bearish divergence between the MACD line and signal line, which may be an early sign of potential weakness.\n\n**Infer**\n\n* Based on the current trend and momentum, it appears that JNJ might experience some downward pressure in the short term.\n* The RSI suggests that the stock is not excessively overbought or oversold, leaving room for further price movements.\n* The MACD bearish divergence may be an early warning sign of potential weakness, but its significance depends on future price action.\n\n**Recommend**\n\n* Consider a cautious approach to JNJ investments, taking into account the recent downward trend and balanced market conditions.\n* If you're long JNJ, consider hedging or adjusting your position to mitigate potential losses.\n* Avoid aggressive buying or selling decisions based solely on this analysis. Closely monitor future price action and adjust your strategy accordingly.\n\n**Caution**\n\nRemember that past performance is not necessarily indicative of future results. Always prioritize your risk profile and consider multiple indicators before making investment decisions.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": true,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O11",
+    "ticker": "XOM",
+    "risk_profile": "low",
+    "indicator_summary": {
+      "close": 147.36000061035156,
+      "rsi": 59.49122251870559,
+      "macd": 0.0421479448453681,
+      "macd_signal": -1.430594974942922,
+      "macd_histogram": 1.4727429197882902,
+      "price_change_pct": 0.9660868047906848,
+      "trend": "bullish",
+      "momentum": "balanced"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: XOM\nUnderlying symbols used: XOM\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 147.36\nPrice change vs previous session: 0.97%\nRSI(14): 59.49\nMACD: 0.0421\nMACD signal: -1.4306\nMACD histogram: 1.4727\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: XOM\nUnderlying symbols used: XOM\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 147.36\nPrice change vs previous session: 0.97%\nRSI(14): 59.49\nMACD: 0.0421\nMACD signal: -1.4306\nMACD histogram: 1.4727\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* The latest closing price of XOM is 147.36.\n* The stock has shown an upward trend recently, with a price change of 0.97% compared to the previous session.\n* RSI (14) indicates that the stock's momentum is fairly balanced, sitting at 59.49.\n\n**Interpret**\n\n* The MACD (Moving Average Convergence Divergence) suggests that there may be a potential buying opportunity, as the MACD line is above the signal line and the histogram is positive.\n* The recent upward trend implies that market sentiment is leaning towards buying pressure.\n\n**Infer**\n\n* Based on the data points provided, it appears that XOM has been in an uptrend recently, which could indicate that investors are becoming more optimistic about the company's performance.\n* The fairly balanced momentum as indicated by RSI suggests that there may not be any significant overbought or oversold conditions.\n\n**Recommend**\n\n* With a low risk profile, I recommend considering a long position (buy) in XOM, taking into account the upward trend and relatively balanced momentum. This is based on the MACD indicating potential buying opportunities.\n* However, it's essential to exercise caution as the MACD signal line is still negative (-1.4306), which could indicate a potential correction or consolidation phase.\n\nCaution: The stock market can be unpredictable, and even with favorable indicators, there is always some level of risk involved. It's crucial to monitor the situation closely and adjust your strategy accordingly.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": false,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O12",
+    "ticker": "XOM",
+    "risk_profile": "high",
+    "indicator_summary": {
+      "close": 147.36000061035156,
+      "rsi": 59.49122251870559,
+      "macd": 0.0421479448453681,
+      "macd_signal": -1.430594974942922,
+      "macd_histogram": 1.4727429197882902,
+      "price_change_pct": 0.9660868047906848,
+      "trend": "bullish",
+      "momentum": "balanced"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: XOM\nUnderlying symbols used: XOM\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 147.36\nPrice change vs previous session: 0.97%\nRSI(14): 59.49\nMACD: 0.0421\nMACD signal: -1.4306\nMACD histogram: 1.4727\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: XOM\nUnderlying symbols used: XOM\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 147.36\nPrice change vs previous session: 0.97%\nRSI(14): 59.49\nMACD: 0.0421\nMACD signal: -1.4306\nMACD histogram: 1.4727\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* The price of XOM has recently shown an upward trend, with a 0.97% increase from the previous session.\n* The RSI (Relative Strength Index) is at 59.49, indicating that the recent price action looks fairly balanced, neither overbought nor oversold.\n* The MACD (Moving Average Convergence Divergence) shows a reading of 0.0421, with a signal line at -1.4306 and a histogram at 1.4727.\n\n**Interpret**\n\n* The upward trend in the price action suggests that XOM may be gaining momentum, but it's not yet clear if this is a sustained move or just a brief correction.\n* The RSI indicates that the recent price action is not overextended, which could suggest that there is still potential for further gains.\n* The MACD shows a bullish divergence between the two moving averages, which can be an early sign of a trend reversal. However, the signal line remains below the zero line, indicating that the overall momentum is still negative.\n\n**Infer**\n\n* Based on the observed trends and indicators, it appears that XOM may have some upward momentum, but it's not clear if this will continue or reverse.\n* The RSI suggests that the recent price action is relatively balanced, which could mean that there is room for further gains.\n* The MACD shows a potential reversal signal, but it's not yet confirmed.\n\n**Recommend**\n\n* Given the mixed signals from the indicators, I would recommend a cautious approach and consider taking a long position with a relatively low leverage (e.g., 20-30% of total portfolio). This would allow for some upside potential while also minimizing exposure to potential losses.\n* As always, it's essential to set clear stop-loss levels and adjust your position as new information becomes available.\n\n**Caution**\n\n* Be aware that the MACD signal is still negative, indicating that there may be further downward pressure on XOM. It's crucial to monitor the situation closely and adjust your strategy if the indicators suggest a shift in momentum.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": true,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O13",
+    "ticker": "GOOG_GOOGL",
+    "risk_profile": "low",
+    "indicator_summary": {
+      "close": 346.4449920654297,
+      "rsi": 42.73702443845559,
+      "macd": -1.912352129739645,
+      "macd_signal": -1.9569273249880927,
+      "macd_histogram": 0.04457519524844766,
+      "price_change_pct": -2.1714889973286184,
+      "trend": "bullish",
+      "momentum": "balanced"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: GOOG_GOOGL\nUnderlying symbols used: GOOG, GOOGL\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 346.44\nPrice change vs previous session: -2.17%\nRSI(14): 42.74\nMACD: -1.9124\nMACD signal: -1.9569\nMACD histogram: 0.0446\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: GOOG_GOOGL\nUnderlying symbols used: GOOG, GOOGL\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 346.44\nPrice change vs previous session: -2.17%\nRSI(14): 42.74\nMACD: -1.9124\nMACD signal: -1.9569\nMACD histogram: 0.0446\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* The latest closing price is 346.44.\n* The price has decreased by -2.17% compared to the previous session.\n* The RSI (Relative Strength Index) with a value of 42.74 indicates that the recent momentum is fairly balanced, neither overbought nor oversold.\n* The MACD (Moving Average Convergence Divergence) indicator shows a negative reading (-1.9124), which suggests that the short-term trend is leaning downward.\n* However, the MACD signal line (-1.9569) is closer to the MACD histogram (0.0446), indicating that the momentum may be shifting upward.\n\n**Interpret**\n\n* The recent price drop of -2.17% could be a minor correction or a sign of increased selling pressure.\n* The RSI value of 42.74 suggests that the market is not overextended, allowing for further potential growth.\n* The MACD indicators are showing mixed signals, with the short-term trend leaning downward but the momentum potentially shifting upward.\n\n**Infer**\n\n* Based on the current market conditions and indicator readings, it appears that GOOG_GOOGL may be poised for a potential bounce or correction.\n* The recent upward trend and balanced momentum suggest that the stock could regain some lost ground, but caution should be exercised due to the negative MACD signal line.\n\n**Recommend**\n\n* For a low-risk profile, I recommend buying GOOG_GOOGL with a stop-loss order set below 340.00 to limit potential losses.\n* Consider setting a target price around 360.00, which would represent a 4% increase from the current level.\n* Monitor the RSI and MACD indicators closely for any changes in momentum or trend direction.\n\n**Caution**\n\n* As with any investment decision, it's essential to set a clear risk tolerance and exit strategy before entering a trade. In this case, the low-risk profile suggests a more conservative approach.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": true,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O14",
+    "ticker": "GOOG_GOOGL",
+    "risk_profile": "high",
+    "indicator_summary": {
+      "close": 346.4449920654297,
+      "rsi": 42.73702443845559,
+      "macd": -1.912352129739645,
+      "macd_signal": -1.9569273249880927,
+      "macd_histogram": 0.04457519524844766,
+      "price_change_pct": -2.1714889973286184,
+      "trend": "bullish",
+      "momentum": "balanced"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: GOOG_GOOGL\nUnderlying symbols used: GOOG, GOOGL\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 346.44\nPrice change vs previous session: -2.17%\nRSI(14): 42.74\nMACD: -1.9124\nMACD signal: -1.9569\nMACD histogram: 0.0446\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: GOOG_GOOGL\nUnderlying symbols used: GOOG, GOOGL\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 346.44\nPrice change vs previous session: -2.17%\nRSI(14): 42.74\nMACD: -1.9124\nMACD signal: -1.9569\nMACD histogram: 0.0446\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* The stock price of GOOG_GOOGL has recently experienced an upward trend.\n* The latest close is at 346.44, with a small decrease of -2.17% compared to the previous session.\n* The RSI (14) indicator shows a reading of 42.74, indicating that the recent momentum is not overly strong or weak.\n\n**Interpret**\n\n* The MACD (Moving Average Convergence Divergence) indicates a sell signal, as the MACD line (-1.9124) is below the MACD signal line (-1.9569).\n* However, the MACD histogram shows a relatively small value of 0.0446, suggesting that the momentum is not strongly leaning in one direction.\n\n**Infer**\n\n* The recent upward trend and balanced momentum suggest that the stock price may be due for a pullback or consolidation.\n* The MACD sell signal adds to this inference, implying that it might be wise to exercise caution before entering new positions.\n\n**Recommend**\n\n* Based on the observed indicators, I recommend reducing exposure or exercising caution when trading GOOG_GOOGL. This is particularly important for high-risk investors, as the recent momentum is not strong enough to warrant a bullish stance.\n* Investors may consider taking profits or adjusting their stop-loss levels to reflect the potential pullback.\n\n**Caution**\n\n* The MACD sell signal and balanced momentum suggest that the stock price may be due for a correction. High-risk investors should be prepared for potential losses if they choose to maintain or increase exposure.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": true,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O15",
+    "ticker": "AMZN",
+    "risk_profile": "low",
+    "indicator_summary": {
+      "close": 247.22999572753906,
+      "rsi": 51.32365268373752,
+      "macd": 0.5921147691809381,
+      "macd_signal": -0.9836170135236212,
+      "macd_histogram": 1.5757317827045592,
+      "price_change_pct": -1.064469834169588,
+      "trend": "bullish",
+      "momentum": "balanced"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: AMZN\nUnderlying symbols used: AMZN\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 247.23\nPrice change vs previous session: -1.06%\nRSI(14): 51.32\nMACD: 0.5921\nMACD signal: -0.9836\nMACD histogram: 1.5757\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: AMZN\nUnderlying symbols used: AMZN\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 247.23\nPrice change vs previous session: -1.06%\nRSI(14): 51.32\nMACD: 0.5921\nMACD signal: -0.9836\nMACD histogram: 1.5757\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* The latest close price for AMZN is 247.23.\n* The stock price has decreased by -1.06% compared to the previous session.\n* The RSI (Relative Strength Index) reading is 51.32, indicating a fairly balanced momentum.\n* The MACD (Moving Average Convergence Divergence) reading is 0.5921, with a signal line at -0.9836 and a histogram value of 1.5757.\n\n**Interpret**\n\n* The recent momentum is leaning upward, as indicated by the trend analysis.\n* The price action appears to be fairly balanced, with no strong buying or selling pressure evident from the RSI reading.\n* The MACD shows a bullish crossover, where the MACD line crosses above the signal line, indicating a potential uptrend.\n\n**Infer**\n\n* Based on the observed data and trends, it's possible that AMZN may continue to trend upward, but with some caution.\n* The recent price decrease could be a minor correction or a minor setback before resuming the upward momentum.\n\n**Recommend**\n\n* With a low risk profile, I recommend maintaining a neutral stance and considering a small long position (approximately 1-2% of total portfolio) for AMZN.\n* This recommendation is based on the bullish trend indicators and the relatively balanced momentum. However, it's essential to monitor the market closely and adjust the position if the trend changes or if the price action becomes more extreme.\n\n**Caution**\n\n* While the current indicators suggest a potential uptrend, it's crucial to remember that the stock market can be volatile and unpredictable. It's essential to set stop-loss orders and adjust the position as needed to manage risk.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": true,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O16",
+    "ticker": "AMZN",
+    "risk_profile": "high",
+    "indicator_summary": {
+      "close": 247.22999572753906,
+      "rsi": 51.32365268373752,
+      "macd": 0.5921147691809381,
+      "macd_signal": -0.9836170135236212,
+      "macd_histogram": 1.5757317827045592,
+      "price_change_pct": -1.064469834169588,
+      "trend": "bullish",
+      "momentum": "balanced"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: AMZN\nUnderlying symbols used: AMZN\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 247.23\nPrice change vs previous session: -1.06%\nRSI(14): 51.32\nMACD: 0.5921\nMACD signal: -0.9836\nMACD histogram: 1.5757\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: AMZN\nUnderlying symbols used: AMZN\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 247.23\nPrice change vs previous session: -1.06%\nRSI(14): 51.32\nMACD: 0.5921\nMACD signal: -0.9836\nMACD histogram: 1.5757\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* The latest closing price of AMZN is 247.23, with a -1.06% change from the previous session.\n* The RSI (14) indicator shows a reading of 51.32, indicating fairly balanced momentum.\n* The MACD indicates a recent upward trend, with a value of 0.5921.\n* The MACD signal is at -0.9836, and the histogram is at 1.5757.\n\n**Interpret**\n\n* The recent price action suggests an upward momentum, supported by the MACD indicator.\n* The RSI reading of 51.32 indicates that the current trend is not overbought or oversold.\n* The MACD signal is bearish, but the overall histogram value is high, indicating a strong bullish momentum.\n\n**Infer**\n\n* Based on the indicators, it appears that AMZN's recent upward trend may continue.\n* However, the MACD signal suggests a potential reversal, which could impact the stock's price movement.\n\n**Recommend**\n\n* I recommend maintaining a cautious approach and considering a long position with a moderate risk profile (60-70% of overall portfolio).\n* This is due to the bullish momentum indicated by the MACD and RSI, but also mindful of the bearish signal from the MACD.\n* A stop-loss order should be set at around 235.00 to limit potential losses in case the trend reverses.\n\n**Caution**\n\n* Keep a close eye on the MACD signal and adjust the position accordingly if it changes direction or becomes more bearish.\n* Be prepared for potential volatility, as AMZN is a high-risk stock with significant price movements.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": true,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O17",
+    "ticker": "NVDA",
+    "risk_profile": "low",
+    "indicator_summary": {
+      "close": 202.80999755859375,
+      "rsi": 48.22224371757045,
+      "macd": 0.14715293778891692,
+      "macd_signal": -1.0230125589012633,
+      "macd_histogram": 1.1701654966901802,
+      "price_change_pct": -2.2131130535044967,
+      "trend": "bullish",
+      "momentum": "balanced"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: NVDA\nUnderlying symbols used: NVDA\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 202.81\nPrice change vs previous session: -2.21%\nRSI(14): 48.22\nMACD: 0.1472\nMACD signal: -1.0230\nMACD histogram: 1.1702\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: NVDA\nUnderlying symbols used: NVDA\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 202.81\nPrice change vs previous session: -2.21%\nRSI(14): 48.22\nMACD: 0.1472\nMACD signal: -1.0230\nMACD histogram: 1.1702\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* The stock price of NVDA has been trending upward recently.\n* The recent close was at 202.81, with a -2.21% change from the previous session.\n* The Relative Strength Index (RSI) is currently at 48.22, indicating a fairly balanced momentum.\n* The Moving Average Convergence Divergence (MACD) is showing a positive reading of 0.1472, while the MACD signal line is negative at -1.0230.\n\n**Interpret**\n\n* The upward trend in NVDA's price action suggests that the stock may continue to rise in the short term.\n* The RSI indicates that the momentum is not overly bullish or bearish, suggesting a relatively stable market.\n* The MACD's positive reading and the MACD histogram's value of 1.1702 indicate a potential buy signal.\n\n**Infer**\n\n* Based on the current indicators, it appears that NVDA may be a good candidate for a long-term investment.\n* However, the recent price drop (-2.21%) and the negative MACD signal line suggest caution.\n\n**Recommend**\n\n* Given the positive trend and balanced momentum, I recommend a buy position with a moderate risk profile (low).\n* Consider setting a stop-loss at around 190-195 to limit potential losses if the market turns.\n* Monitor the MACD's signal and histogram for any signs of reversal or confirmation before making any further investment decisions.\n\n**Caution**\n\n* As always, it's essential to keep an eye on the overall market conditions and adjust your strategy accordingly.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": true,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O18",
+    "ticker": "NVDA",
+    "risk_profile": "high",
+    "indicator_summary": {
+      "close": 202.80999755859375,
+      "rsi": 48.22224371757045,
+      "macd": 0.14715293778891692,
+      "macd_signal": -1.0230125589012633,
+      "macd_histogram": 1.1701654966901802,
+      "price_change_pct": -2.2131130535044967,
+      "trend": "bullish",
+      "momentum": "balanced"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: NVDA\nUnderlying symbols used: NVDA\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 202.81\nPrice change vs previous session: -2.21%\nRSI(14): 48.22\nMACD: 0.1472\nMACD signal: -1.0230\nMACD histogram: 1.1702\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: NVDA\nUnderlying symbols used: NVDA\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 202.81\nPrice change vs previous session: -2.21%\nRSI(14): 48.22\nMACD: 0.1472\nMACD signal: -1.0230\nMACD histogram: 1.1702\nTrend in plain English: recent momentum is leaning upward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* The latest close is 202.81, showing a price change of -2.21% compared to the previous session.\n* The RSI (14) indicator is at 48.22, indicating that the recent momentum is fairly balanced, neither strongly trending nor oversold.\n* The MACD is positive at 0.1472, which means the moving average crossover is in favor of buying.\n* The MACD signal line is negative at -1.0230, but the MACD histogram is high at 1.1702, suggesting that the indicator's momentum is still upward.\n\n**Interpret**\n\n* The recent price action shows an upward trend, which is supported by the MACD and RSI indicators.\n* However, the slight decline in the latest close may be a cautionary sign, as it could indicate some minor consolidation or volatility.\n\n**Infer**\n\n* Given the overall upward momentum and the positive MACD, it's possible that NVDA could continue to trend upward.\n* The high RSI value suggests that the stock is not oversold, which reduces the risk of a sharp decline.\n\n**Recommend**\n\nBased on the indicators, I recommend taking a cautious approach and considering a small buying opportunity. This could be in the form of a limited position or a smaller trade size. However, it's essential to set stop-losses and adjust your position according to market conditions.\n\n**Caution**\n\nWhile the indicators suggest an upward trend, it's crucial to remain vigilant and monitor the stock's price action closely. A sudden reversal or unexpected news could cause the stock to drop sharply, so be prepared to adjust your strategy accordingly.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": true,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O19",
+    "ticker": "KO",
+    "risk_profile": "low",
+    "indicator_summary": {
+      "close": 81.55999755859375,
+      "rsi": 48.57683450296654,
+      "macd": 0.813721066244085,
+      "macd_signal": 0.9168876289564174,
+      "macd_histogram": -0.10316656271233238,
+      "price_change_pct": -3.9566659006126694,
+      "trend": "bearish",
+      "momentum": "balanced"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: KO\nUnderlying symbols used: KO\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 81.56\nPrice change vs previous session: -3.96%\nRSI(14): 48.58\nMACD: 0.8137\nMACD signal: 0.9169\nMACD histogram: -0.1032\nTrend in plain English: recent momentum is leaning downward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: KO\nUnderlying symbols used: KO\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: low\nLatest close: 81.56\nPrice change vs previous session: -3.96%\nRSI(14): 48.58\nMACD: 0.8137\nMACD signal: 0.9169\nMACD histogram: -0.1032\nTrend in plain English: recent momentum is leaning downward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* The latest close price is $81.56.\n* The stock has dropped by 3.96% compared to the previous session.\n* The RSI (Relative Strength Index) reading is 48.58, indicating a fairly balanced momentum.\n* The MACD (Moving Average Convergence Divergence) indicator shows:\n\t+ MACD line: 0.8137\n\t+ MACD signal: 0.9169\n\t+ MACD histogram: -0.1032\n\n**Interpret**\n\n* The recent momentum is leaning downward, as indicated by the trend.\n* The price action appears fairly balanced, with no strong trends or overbought/oversold conditions.\n\n**Infer**\n\n* Based on the current indicators, it seems that the stock may be experiencing a minor correction rather than a major downturn.\n* The RSI reading suggests that the momentum is not overly stretched in either direction.\n\n**Recommend**\n\n* Given the balanced momentum and recent downward trend, I would recommend a cautious approach for now. A possible \"wait-and-see\" strategy could be considered, where you monitor the stock's performance and wait for any potential reversal or confirmation of the current trend before making a move.\n* However, it is essential to keep in mind that even with this balanced momentum, there is always some level of risk involved with investing. It's crucial to carefully consider your investment goals, risk tolerance, and overall financial situation before making any decisions.\n\n**Caution**\n\n* As with any investment decision, it's vital to remember that past performance is not necessarily indicative of future results. Be cautious and prioritize informed decision-making based on current market conditions.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": true,
+      "no_obvious_momentum_contradiction": true
+    }
+  },
+  {
+    "sample_id": "O20",
+    "ticker": "KO",
+    "risk_profile": "high",
+    "indicator_summary": {
+      "close": 81.55999755859375,
+      "rsi": 48.57683450296654,
+      "macd": 0.813721066244085,
+      "macd_signal": 0.9168876289564174,
+      "macd_histogram": -0.10316656271233238,
+      "price_change_pct": -3.9566659006126694,
+      "trend": "bearish",
+      "momentum": "balanced"
+    },
+    "prompt": {
+      "system": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.",
+      "user": "Ticker: KO\nUnderlying symbols used: KO\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 81.56\nPrice change vs previous session: -3.96%\nRSI(14): 48.58\nMACD: 0.8137\nMACD signal: 0.9169\nMACD histogram: -0.1032\nTrend in plain English: recent momentum is leaning downward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language.",
+      "prompt": "You are a local financial analysis assistant. Provide a concise, structured response using the headings Observe, Interpret, Infer, and Recommend. Base every statement on the supplied market data. Do not mention hidden reasoning or internal chain-of-thought. Keep the response practical, cautious, and grounded in the indicators provided. Use plain English that a non-specialist can understand. Avoid stock-market jargon such as bullish, bearish, overbought, oversold, or MACD unless you explain it in simple words.\n\nTicker: KO\nUnderlying symbols used: KO\nAnalysis date range: 2025-07-20 to 2026-07-20\nData points: 250\nRisk profile: high\nLatest close: 81.56\nPrice change vs previous session: -3.96%\nRSI(14): 48.58\nMACD: 0.8137\nMACD signal: 0.9169\nMACD histogram: -0.1032\nTrend in plain English: recent momentum is leaning downward\nMomentum in plain English: the price action looks fairly balanced\n\nProduce a short analysis with the headings Observe, Interpret, Infer, and Recommend. Make the recommendation proportional to the indicator evidence and include a brief caution where appropriate. If you use any technical term, immediately explain it in everyday language."
+    },
+    "response": "**Observe**\n\n* The price of KO has been trending downward recently, with a 3.96% decline compared to the previous session.\n* The RSI (Relative Strength Index) is at 48.58, indicating that the recent price movement has been fairly balanced, neither overly strong nor weak.\n* The MACD (Moving Average Convergence Divergence) indicates a bearish momentum with the MACD line below the signal line.\n\n**Interpret**\n\n* The downward trend in KO's price suggests a weakening momentum, which could continue if not halted by positive market forces or fundamental changes.\n* The balanced RSI reading implies that the price is neither extremely oversold nor overbought, suggesting a possible consolidation period ahead.\n\n**Infer**\n\n* Given the recent downward trend and the bearish MACD signals, it's likely that KO's price will continue to decline in the short term.\n* However, the fairly balanced momentum as indicated by the RSI could lead to a temporary consolidation or correction before the downtrend continues.\n\n**Recommend**\n\n* Based on the indicator evidence, I recommend a cautious approach for investors with a high risk profile. This could include:\n\t+ Reducing exposure to KO's stock\n\t+ Considering hedges or stop-loss orders to minimize potential losses\n\t+ Waiting for a possible correction or consolidation before re-entering the market\n\n**Caution**\n\n* It's essential to monitor KO's fundamentals, such as earnings and revenue growth, in addition to technical indicators. A significant positive surprise could reverse this downward trend, making it crucial to stay informed about company performance.",
+    "automatic_checks": {
+      "all_oiir_headings_present": true,
+      "rsi_value_mentioned_exactly": true,
+      "macd_value_mentioned_exactly": false,
+      "no_obvious_momentum_contradiction": true
+    }
+  }
+]

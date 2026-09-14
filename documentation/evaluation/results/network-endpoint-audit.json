@@ -1,0 +1,82 @@
+{
+  "method": "Repeated lsof -nP -i endpoint snapshots",
+  "limitation": "This records process sockets/endpoints, not packet payloads. It can miss very short-lived connections between snapshots and is not a substitute for a privileged tcpdump/Wireshark content audit.",
+  "started_utc": "2026-07-21T10:32:12.535831+00:00",
+  "ended_utc": "2026-07-21T10:33:10.704040+00:00",
+  "python_pid": 22822,
+  "ollama_pids": [
+    21298
+  ],
+  "snapshots": 273,
+  "queries_attempted": 10,
+  "queries_with_response": 10,
+  "query_results": [
+    {
+      "sample_id": "O01",
+      "elapsed_seconds": 5.701,
+      "response_received": true
+    },
+    {
+      "sample_id": "O02",
+      "elapsed_seconds": 5.646,
+      "response_received": true
+    },
+    {
+      "sample_id": "O03",
+      "elapsed_seconds": 5.519,
+      "response_received": true
+    },
+    {
+      "sample_id": "O04",
+      "elapsed_seconds": 5.622,
+      "response_received": true
+    },
+    {
+      "sample_id": "O05",
+      "elapsed_seconds": 5.664,
+      "response_received": true
+    },
+    {
+      "sample_id": "O06",
+      "elapsed_seconds": 5.483,
+      "response_received": true
+    },
+    {
+      "sample_id": "O07",
+      "elapsed_seconds": 5.508,
+      "response_received": true
+    },
+    {
+      "sample_id": "O08",
+      "elapsed_seconds": 6.823,
+      "response_received": true
+    },
+    {
+      "sample_id": "O09",
+      "elapsed_seconds": 5.416,
+      "response_received": true
+    },
+    {
+      "sample_id": "O10",
+      "elapsed_seconds": 6.638,
+      "response_received": true
+    }
+  ],
+  "all_observed_relevant_process_sockets": [
+    "Python    22822 danielsarney    9u  IPv4 0xbd69f5f186a5d6fa      0t0  TCP 127.0.0.1:54568->127.0.0.1:11434 (ESTABLISHED)",
+    "ollama    21298 danielsarney    3u  IPv4  0xd5bba5bb019af71      0t0  TCP 127.0.0.1:11434 (LISTEN)",
+    "ollama    21298 danielsarney    8u  IPv4 0x9776683071374d3c      0t0  TCP 127.0.0.1:11434->127.0.0.1:54568 (ESTABLISHED)",
+    "ollama    21298 danielsarney   10u  IPv4  0x80915fe53bdd9d3      0t0  TCP 127.0.0.1:54572->127.0.0.1:54323 (ESTABLISHED)",
+    "ollama    21298 danielsarney   10u  IPv4 0x4824274ad92e9eda      0t0  TCP 127.0.0.1:54592->127.0.0.1:54323 (ESTABLISHED)",
+    "ollama    21298 danielsarney   10u  IPv4 0x5bc29ca5af77a794      0t0  TCP 127.0.0.1:54597->127.0.0.1:54323 (ESTABLISHED)",
+    "ollama    21298 danielsarney   10u  IPv4 0x5bc29ca5af77a794      0t0  TCP 127.0.0.1:54610->127.0.0.1:54323 (ESTABLISHED)",
+    "ollama    21298 danielsarney   10u  IPv4 0x65c7545f6777e126      0t0  TCP 127.0.0.1:54578->127.0.0.1:54323 (ESTABLISHED)",
+    "ollama    21298 danielsarney   10u  IPv4 0x7e2f4c5a527acd26      0t0  TCP 127.0.0.1:54606->127.0.0.1:54323 (ESTABLISHED)",
+    "ollama    21298 danielsarney   10u  IPv4 0xb0ed599b7a5da87e      0t0  TCP 127.0.0.1:54614->127.0.0.1:54323 (ESTABLISHED)",
+    "ollama    21298 danielsarney   10u  IPv4 0xd6e4d902e8accac0      0t0  TCP 127.0.0.1:54582->127.0.0.1:54323 (ESTABLISHED)",
+    "ollama    21298 danielsarney   10u  IPv4 0xd6e4d902e8accac0      0t0  TCP 127.0.0.1:54601->127.0.0.1:54323 (ESTABLISHED)",
+    "ollama    21298 danielsarney   10u  IPv4 0xf829370a402668e4      0t0  TCP 127.0.0.1:54586->127.0.0.1:54323 (ESTABLISHED)"
+  ],
+  "observed_external_sockets": [],
+  "endpoint_audit_passed": true
+}
